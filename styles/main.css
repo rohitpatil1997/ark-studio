@@ -1,1 +1,349 @@
-<!-- In this file you are going to write the CSS code -->
+
+*{
+	font-family: arial;
+}
+.wrapper{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.trasparent_nav{
+    background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+    top: 0;
+    position: fixed;
+    z-index:200;
+}
+
+
+header.trasparent_nav .nav_bar #nav_list {
+    display: flex;
+}
+
+header.trasparent_nav .nav_bar #nav_list li a {
+	color: black;
+    font-size: 17px;
+	margin: 18px;
+	text-decoration:none;
+	
+}
+
+
+.home{
+    width: 100%;
+	height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.cta{
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.cta p{
+    display: inline-block;
+    font-size: 22px;
+    margin: 35px 0 0 40px;
+}
+
+
+.cta a{
+	padding: 19px;
+	text-decoration: none;
+    float: right;
+    margin: 20px 30px 20px 0;
+}
+
+#cta_id{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: -80px;
+	color: black;
+}
+#cta_id a {
+    background: #afeeee;
+    
+}
+#cta_id a:hover {
+    background: blue;
+    transition: all 0.2s;
+}
+#cta_id p{
+    color: black;
+}
+
+.services{
+    padding: 100px;
+    background: #d3d3d3;
+}
+
+.services h2{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.services .separator{
+    text-align: center;
+    margin: 18px 0;
+}
+img{
+    margin-bottom: 30px;
+}
+
+.services ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    overflow: hidden;
+}
+
+.services ul li{
+	color: gray;
+    width: 293px;
+    height: auto;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+.services h3{
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.services p{
+    color: gray;
+    font-size: 18px;
+}
+
+
+
+.recent_work{
+    width: 100%;
+    overflow: hidden;
+}
+
+.recent_work .recent {
+    display: block;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.recent_work .recent:hover {
+    transform: scaleY(1.1);
+    transition: all 0.2s;
+}
+
+
+.testimonials{
+    padding: 100px 0;
+    background: "dim grey";
+}
+
+.testimonials{
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.testimonials h3{
+    color: 'dim gray';
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonials .test_intro{
+	margin-top: 90px;
+	padding: 0 14px;
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.testimonials ul.test_intro li {
+    width: 293px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials img.image{
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.testimonials h2{
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.testimonials span{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.testimonials p{
+    margin-top: 20px;
+    font-size: 15px;
+	text-align: center;
+    line-height: 20px;
+}
+
+
+.brands{
+    width: 100%;
+    padding: 30px 0;
+    background:grey;
+}
+
+.brands ul{
+    display: flex;
+	align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 450px;
+    background: #353535;
+    overflow: hidden;
+    padding-bottom: 22px;
+}
+
+footer #cta_id{
+    background-color: grey;
+}
+
+footer #cta_id p{
+    color: white;
+}
+
+
+
+footer #cta_id a:hover {
+    background: blue;
+    transition: all 0.2s;
+}
+
+footer #cta_id a{
+    background: #afeeee;
+}
+
+footer .footer_widget{
+    display: flex;
+	overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+footer .foot_column {
+    width: 250px;
+    height: auto;
+    margin: 100px 0;
+}
+
+footer .foot_column:last-child{
+    margin-right: 0;
+}
+
+footer .foot_column h3{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+
+}
+
+footer .foot_column p{
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 21px;
+}
+
+footer .foot_column span{
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+
+footer .foot_column ul.social_media{
+    list-style: none;
+    overflow: hidden;
+}
+
+footer .foot_column ul.social_media li{
+    float: left;
+    margin-left: 8px;
+}
+
+footer .foot_column ul.social_media li:first-child{
+    margin-left: 0;
+}
+
+footer .foot_column ul.social_media li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url('../img/social.png') no-repeat;
+}
+
+footer .foot_column ul.social_media li a.fb{
+    background-position: 0 0;
+}
+footer .foot_column ul.social_media li a.twitter{
+    background-position: -26px 0;
+}
+footer .foot_column ul.social_media li a.dribbble{
+    background-position: -52px 0;
+}
+
+
+
+footer .foot_column ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer .foot_column ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 14px;
+}
+
+
+
+p.rights{
+	display: block;
+	margin: 0;
+	padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+p.rights a{
+    font-weight: bold;
+}
